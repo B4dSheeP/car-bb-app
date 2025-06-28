@@ -3,5 +3,6 @@
     <domain-config cleartextTrafficPermitted="true">
         <domain>127.0.0.1</domain>
         <domain>localhost</domain>
+        <domain>e404-47-53-53-141.ngrok-free.app</domain>
     </domain-config>
 </network-security-config>

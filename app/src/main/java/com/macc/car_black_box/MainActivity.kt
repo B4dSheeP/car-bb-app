@@ -134,6 +134,7 @@ class MainActivity : AppCompatActivity() {
                     val message = response.body()?.message
                     Toast.makeText(this@MainActivity,  message ?: "wrong credentials", Toast.LENGTH_LONG).show()
                 } else {
+                    Log.d("LOGN", response.headers().toString())
                     Toast.makeText(this@MainActivity, "Status code ${response.code()}", Toast.LENGTH_LONG).show()
                 }
             }
